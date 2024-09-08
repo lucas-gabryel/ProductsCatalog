@@ -2,24 +2,32 @@ const dataProdutos = [
   {
     img: "./src/assets/camisa-basica.png",
     title: "Camisa Casual",
-    price: 79.90
+    price: "79,90",
+    size: "M",
+    color: "Vermelho"
   },
   {
     img: "./src/assets/calca-jeans.jpg",
     title: "Calça Jeans",
-    price: 119.90
+    price: "119,90",
+    size: "42",
+    color: "Tons de azul"
   },
   {
     img: "./src/assets/tenis-esportivo.jpg",
     title: "Tênis Esportivo",
-    price: 199.90
+    price: "199,90",
+    size: "40",
+    color: "Preto Branco Azul"
   },
   {
     img: "./src/assets/jaqueta-couro.jpg",
     title: "Jaqueta de Couro",
-    price: 299.90
+    price: "299,90",
+    size: "G",
+    color: "Preto"
   },
-  {
+  /* {
     img: "./src/assets/",
     title: "Bermuda Praia",
     price: 49.90
@@ -58,5 +66,5 @@ const dataProdutos = [
     img: "https://example.com/image12.jpg",
     title: "Cinto de Couro",
     price: 59.90
-  }
+  } */
 ];
